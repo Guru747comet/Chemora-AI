@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Local data and generated uploads/reports
+backend/storage/*
+!backend/storage/.gitkeep
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
